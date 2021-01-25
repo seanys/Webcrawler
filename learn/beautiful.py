@@ -20,7 +20,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 # response=request.urlopen("https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=site.styles&only=styles&skin=vector")
 
-response=request.urlopen("https://en.wikipedia.org/wiki/Main_Page")
+response=request.urlopen("https://www.fdsm.fudan.edu.cn/AboutUs/teachers_dir.html")
 
 soup = BeautifulSoup(response)
 
